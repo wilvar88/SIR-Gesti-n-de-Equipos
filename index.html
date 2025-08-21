@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Equipos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main id="board" aria-label="Imagen con puntos interactivos">
+    <!-- Cambia la ruta si tu imagen tiene otro nombre -->
+    <img id="base" src="img/Gestión de Equipos.png" alt="Imagen base" />
+    <!-- Capas superpuestas -->
+    <div id="hotspots" aria-live="polite"></div>
+    <div id="actions" aria-label="Botones de acción"></div>
+    <div id="coords" hidden></div>
+  </main>
+
+  <footer></footer>
+
+  <noscript>Esta página requiere JavaScript para mostrar los tooltips y botones interactivos.</noscript>
+
+  <!-- Importante: data.js primero (puebla #hotspots / #actions), luego script.js (maneja el clic) -->
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
