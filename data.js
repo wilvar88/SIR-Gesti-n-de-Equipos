@@ -57,8 +57,8 @@ window.BUTTONS = [
   {
     x: 75.8, y: 45.7, // +Equipos
     label: "+",
-    href: "https://wilvar88.github.io/SIR-2/",
-    target: "blank",
+    href: "https://wilvar88.github.io/SIR-Crear-Terminal/",
+    target: "self",
     // Si quieres totalmente transparente, puedes usar la variante 'transparent'
     // (ojo: pone background transparente con !important)
     variant: "transparent",
